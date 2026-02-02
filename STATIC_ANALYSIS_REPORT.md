@@ -7,8 +7,12 @@ Static analysis (lint/typecheck/build) could not be executed because the reposit
 - Path: `web-browsing-website-yahoo-209065-209382/`
 - Present files:
   - `README.md`
+  - `STATIC_ANALYSIS_REPORT.md`
   - `.gitignore`
   - `.git/*`
+
+## Static analysis execution attempt
+No lint/typecheck/build commands could be executed because there is no `package.json` (no `npm` scripts to run) and no `src/` tree to analyze.
 
 ## Missing expected files (examples)
 - `package.json` (required to discover scripts and dependencies)
